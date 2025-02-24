@@ -13,25 +13,8 @@ function App() {
                 <li>First item</li>
                 <li>Second item</li>
             </ul>
-            
-            {/* <h1>My local Picture</h1>
-            <img src={myImage} alt="A description" width="300" /> */}
 
-            {/* <h1>Online Image Example</h1>
-            <img src="https://via.placeholder.com/300" alt="Placeholder" /> */}
-
-            const [count, setCount] = useState(0);
-
-            return (
-                <div>
-                    <h1>Click Counter</h1>
-                    <p>You clicked {count} times</p>
-                    <button onClick={() => setCount(count + 1)}>Click Me</button>
-                </div>
-
-                
       </div>
-
       
   );
 }
